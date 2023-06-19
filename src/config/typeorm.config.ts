@@ -6,8 +6,8 @@ export const getTypeOrmConfig = async (configService: ConfigService): Promise<Ty
     host: 'localhost',
     port: 5432,
     username: 'postgres',
-    password: '',
-    database: '',
+    password: 'MarKo327520091310',
+    database: 'spotify',
     autoLoadEntities: true,
     synchronize: true
 })
